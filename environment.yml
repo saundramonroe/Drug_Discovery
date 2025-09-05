@@ -1,50 +1,39 @@
-name: anaconda-life-sciences
+name: anaconda-life-science-drug-discovery
 channels:
   - defaults
   - https://repo.anaconda.cloud/repo/community
   - https://repo.anaconda.cloud/repo/conda-forge
-default_channels:
-  - https://repo.anaconda.cloud/repo/main
-  - https://repo.anaconda.cloud/repo/r
-  - https://repo.anaconda.cloud/repo/msys2
 dependencies:
   - python=3.11
-  - rdkit
-  - biopython
-  - pandas
-  - numpy
-  - scikit-learn
-  - matplotlib
-  - seaborn
-  - jupyterlab
-  - openpyxl
-  - requests
-  - tqdm
-  - plotly
-  - cufflinks
-  - pymol-open-source
-  - chembl_webresource_client
-  - deepchem
-  - tensorflow
-  - keras
-  - xgboost
-  - lightgbm
-  - catboost
-  - scipy
-  - statsmodels
-  - bokeh
-  - networkx
-  - mlxtend
-  - xlrd
   - beautifulsoup4
-  - lxml
-  - conda-pack
-  - xmltodict
+  - biopython
+  - numba
   - h5py
-  - tables
+  - dask-ml
+  - pandas
+  - statsmodels
+  - nglview
+  - xlrd
+  - plotly
+  - lxml
+  - ipykernel
+  - sympy
   - zarr
   - dask
-  - distributed
-  - numba
-  - cython
-  - ipykernel
+  - networkx
+  - scikit-learn
+  - scipy
+  - xmltodict
+  - matplotlib
+  - seaborn
+  - tables
+  - rdkit
+  - requests
+  - ipywidgets
+  - jupyterlab
+  - openbabel
+  - numpy
+  - openpyxl
+  - bokeh
+  - chembl_webresource_client
+prefix: /Users/smonroe/miniconda3/envs/anaconda-life-science-drug-discovery
